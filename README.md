@@ -7,7 +7,7 @@ This project performs a deep-dive **Cohort Analysis** to evaluate user retention
 
 ---
 
-## ⚙️ Project Architecture & Layout
+ ⚙️ Project Architecture & Layout
 ```text
 saas-ecommerce-cohort-retention/
 │
