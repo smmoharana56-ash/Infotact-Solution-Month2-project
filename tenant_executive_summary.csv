@@ -1,0 +1,5 @@
+tenant_id,total_accounts,total_mrr,average_api_usage,total_storage_gb,churned_accounts,churn_rate_pct
+Acme_Corp,260,59640.0,36958.0,41659.57,70,26.92
+Beta_Industries,243,56907.0,37233.0,43139.72,55,22.63
+Delta_Systems,264,56936.0,40184.0,44281.27,68,25.76
+Omega_Labs,233,50767.0,37000.0,36996.51,66,28.33
