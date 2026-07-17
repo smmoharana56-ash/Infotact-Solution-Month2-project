@@ -33,3 +33,8 @@ saas-ecommerce-cohort-retention/
     *   Synthesized executive business KPIs, including total Monthly Recurring Revenue (MRR) and aggregate cloud storage metrics.
     *   Formulated tenant-specific churn velocity percentages to track active customer retention rates.
     *   Generated and exported the corporate operations matrix to `tenant_executive_summary.csv`.
+*   **Day 4 - Time-Based Feature Engineering
+* Successfully parsed the corporate customer `activation_date` strings into standardized Python datetime objects.
+* Engineered a new granular feature `activation_date_only` to isolate calendar dates for clean day-over-day tracking.
+* Engineered a new feature `activation_hour` to capture the exact hour integer (0–23) of account activations.
+* Staged the main dataset (`analytics_df`) with structural time intelligence features to prepare for future hourly behavioral profiling and operational deep-dives.
