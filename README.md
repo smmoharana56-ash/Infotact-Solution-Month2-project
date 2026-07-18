@@ -38,3 +38,7 @@ saas-ecommerce-cohort-retention/
 * Engineered a new granular feature `activation_date_only` to isolate calendar dates for clean day-over-day tracking.
 * Engineered a new feature `activation_hour` to capture the exact hour integer (0–23) of account activations.
 * Staged the main dataset (`analytics_df`) with structural time intelligence features to prepare for future hourly behavioral profiling and operational deep-dives.
+* ** Day 5 - Multi-Tenant Operational Metrics Isolation
+* Grouped the master `analytics_df` dataset across `tenant_id` and the engineered `activation_hour` feature.
+* Isolated key behavioral and financial footprints, including active accounts, total MRR, average API intensity, and storage consumption per hourly window.
+* Formatted execution outputs into a structured data frame (`hourly_tenant_performance`) to enable granular, multi-tenant performance audits.
