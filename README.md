@@ -42,3 +42,7 @@ saas-ecommerce-cohort-retention/
 * Grouped the master `analytics_df` dataset across `tenant_id` and the engineered `activation_hour` feature.
 * Isolated key behavioral and financial footprints, including active accounts, total MRR, average API intensity, and storage consumption per hourly window.
 * Formatted execution outputs into a structured data frame (`hourly_tenant_performance`) to enable granular, multi-tenant performance audits.
+* ** Day 6 - Tenant Segmentation & Risk Profile Mapping
+* Rolled up multi-tenant account records into a flat, tenant-level corporate health matrix (`tenant_risk_profiles`).
+* Formulated localized `tenant_churn_rate_%` calculations to measure the exact churn density per tenant ecosystem.
+* Applied conditional logic structures to segments tenants into actionable health tiers (`Low Risk`, `Moderate Risk`, `High Risk/Critical`) based on actual corporate churn percentages.
