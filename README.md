@@ -50,3 +50,7 @@ saas-ecommerce-cohort-retention/
 * Joined localized tenant risk mapping features back into the primary master DataFrame (`analytics_df`).
 * Enforced schema validation and structural data hygiene across all active operational variables.
 * Exported final production-ready analytical assets (`final_processed_saas_analytics.csv` and `executive_tenant_risk_profiles.csv`) to enable seamless downstream BI integration.
+* ** Day 8 - Hourly Activity Visualization & EDA
+* Integrated `matplotlib` and `seaborn` plotting frameworks into the notebook environment.
+* Built dynamic operational trend plots tracking `average_api_calls` against isolated `activation_hour` features.
+* Mapped peak usage hours to identify multi-tenant platform load windows and potential infrastructure bottlenecks.
