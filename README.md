@@ -54,3 +54,7 @@ saas-ecommerce-cohort-retention/
 * Integrated `matplotlib` and `seaborn` plotting frameworks into the notebook environment.
 * Built dynamic operational trend plots tracking `average_api_calls` against isolated `activation_hour` features.
 * Mapped peak usage hours to identify multi-tenant platform load windows and potential infrastructure bottlenecks.
+* ** Day 9 - Revenue at Risk Distribution Analysis
+* Engineered categorical visualizations mapping total aggregated MRR across defined risk segments (`Low Risk`, `Moderate Risk`, `High Risk/Critical`).
+* Evaluated capital exposure across high-vulnerability tenant accounts to prioritize customer success intervention strategies.
+* Standardized reporting aesthetics using custom color palettes and formatted currency axes for stakeholder reporting.
