@@ -58,3 +58,7 @@ saas-ecommerce-cohort-retention/
 * Engineered categorical visualizations mapping total aggregated MRR across defined risk segments (`Low Risk`, `Moderate Risk`, `High Risk/Critical`).
 * Evaluated capital exposure across high-vulnerability tenant accounts to prioritize customer success intervention strategies.
 * Standardized reporting aesthetics using custom color palettes and formatted currency axes for stakeholder reporting.
+* ** Day 10 - Operational Feature Correlation & Heatmap
+* Isolated primary numerical features (`monthly_recurring_revenue`, `api_requests_count`, `cloud_storage_used_gb`, `is_churned`) to calculate a Pearson correlation matrix.
+* Rendered an operational heat map using `seaborn` to detect feature interplay and usage intensity patterns across tenant environments.
+* Evaluated direct linear dependencies between heavy API call volume and cloud storage consumption to inform infrastructure auto-scaling parameters.
