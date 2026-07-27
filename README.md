@@ -62,3 +62,7 @@ saas-ecommerce-cohort-retention/
 * Isolated primary numerical features (`monthly_recurring_revenue`, `api_requests_count`, `cloud_storage_used_gb`, `is_churned`) to calculate a Pearson correlation matrix.
 * Rendered an operational heat map using `seaborn` to detect feature interplay and usage intensity patterns across tenant environments.
 * Evaluated direct linear dependencies between heavy API call volume and cloud storage consumption to inform infrastructure auto-scaling parameters.
+* ** Day 11 - ML Data Pipeline & Train-Test Partitioning
+* Isolated predictor variables (`monthly_recurring_revenue`, `api_requests_count`, `cloud_storage_used_gb`, `activation_hour`) into feature matrix `X` and designated `is_churned` as target `y`.
+* Executed an 80/20 train-test split utilizing `scikit-learn`'s `train_test_split`.
+* Applied class stratification (`stratify=y`) to maintain proportion consistency of churned vs. active tenants across training and testing environments.
