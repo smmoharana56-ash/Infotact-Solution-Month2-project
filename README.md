@@ -66,3 +66,7 @@ saas-ecommerce-cohort-retention/
 * Isolated predictor variables (`monthly_recurring_revenue`, `api_requests_count`, `cloud_storage_used_gb`, `activation_hour`) into feature matrix `X` and designated `is_churned` as target `y`.
 * Executed an 80/20 train-test split utilizing `scikit-learn`'s `train_test_split`.
 * Applied class stratification (`stratify=y`) to maintain proportion consistency of churned vs. active tenants across training and testing environments.
+* **Day 12 - Baseline ML Model Training & Benchmarking
+* Instantiated a baseline `LogisticRegression` classification model using `scikit-learn`.
+* Fitted the baseline model on `X_train` and evaluated predictions against the unseen `X_test` dataset.
+* Generated baseline performance metrics including overall accuracy, precision, recall, and F1-score to set a benchmark for future model iterations.
