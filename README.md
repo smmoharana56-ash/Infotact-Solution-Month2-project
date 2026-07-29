@@ -70,3 +70,7 @@ saas-ecommerce-cohort-retention/
 * Instantiated a baseline `LogisticRegression` classification model using `scikit-learn`.
 * Fitted the baseline model on `X_train` and evaluated predictions against the unseen `X_test` dataset.
 * Generated baseline performance metrics including overall accuracy, precision, recall, and F1-score to set a benchmark for future model iterations.
+* **Day 13 - Non-Linear ML Modeling (Random Forest)
+* Advanced predictive analytics by training an ensemble `RandomForestClassifier` with 100 decision trees.
+* Leveraged non-linear feature interactions between API usage volume, cloud storage consumption, and account churn probability.
+* Evaluated precision and recall improvements over the baseline Logistic Regression model.
