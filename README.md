@@ -74,3 +74,7 @@ saas-ecommerce-cohort-retention/
 * Advanced predictive analytics by training an ensemble `RandomForestClassifier` with 100 decision trees.
 * Leveraged non-linear feature interactions between API usage volume, cloud storage consumption, and account churn probability.
 * Evaluated precision and recall improvements over the baseline Logistic Regression model.
+* **Day 14 - Model Interpretability & Feature Importance Analysis
+* Extracted Gini importance scores from the trained `RandomForestClassifier` to determine primary churn drivers.
+* Constructed visual ranking plots isolating high-impact behavioral indicators (e.g., API activity vs. storage utilization vs. MRR tier).
+* Translated technical ML insights into actionable retention signals for customer success and operations teams.
