@@ -78,3 +78,7 @@ saas-ecommerce-cohort-retention/
 * Extracted Gini importance scores from the trained `RandomForestClassifier` to determine primary churn drivers.
 * Constructed visual ranking plots isolating high-impact behavioral indicators (e.g., API activity vs. storage utilization vs. MRR tier).
 * Translated technical ML insights into actionable retention signals for customer success and operations teams.
+* ** Day 15 - Model Persistence & Pipeline Preservation
+* Implemented model serialization utilizing `joblib` to preserve the trained `RandomForestClassifier` asset.
+* Exported input feature schemas (`model_feature_names.pkl`) to guarantee input alignment during real-time batch and API scoring operations.
+* Validated pipeline persistence with an automated reload dry-run test on test samples.
