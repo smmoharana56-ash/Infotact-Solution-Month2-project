@@ -82,3 +82,7 @@ saas-ecommerce-cohort-retention/
 * Implemented model serialization utilizing `joblib` to preserve the trained `RandomForestClassifier` asset.
 * Exported input feature schemas (`model_feature_names.pkl`) to guarantee input alignment during real-time batch and API scoring operations.
 * Validated pipeline persistence with an automated reload dry-run test on test samples.
+* **Day 16 - Real-Time Tenant Scoring & Inference Engine
+* Constructed a modular inference scoring function (`score_tenant_churn`) to ingest live tenant payload variables.
+* Automated real-time probability extraction (`predict_proba`) using reloaded model artifacts.
+* Integrated actionable, rule-based decision triggers (`CRITICAL`, `WARNING`, `HEALTHY`) mapped directly to churn probabilities for downstream customer success workflows.
