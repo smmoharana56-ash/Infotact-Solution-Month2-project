@@ -86,3 +86,7 @@ saas-ecommerce-cohort-retention/
 * Constructed a modular inference scoring function (`score_tenant_churn`) to ingest live tenant payload variables.
 * Automated real-time probability extraction (`predict_proba`) using reloaded model artifacts.
 * Integrated actionable, rule-based decision triggers (`CRITICAL`, `WARNING`, `HEALTHY`) mapped directly to churn probabilities for downstream customer success workflows.
+* ** Day 17 - RESTful API Microservice (FastAPI & Pydantic)
+* Built a lightweight microservice (`app.py`) leveraging `FastAPI` and `Pydantic` for real-time payload parsing and data validation.
+* Exposed `/predict` POST endpoint to serve dynamic churn predictions and intervention workflows from serialized model artifacts.
+* Implemented OpenAPI standard documentation (Swagger UI) for seamless backend integration.
