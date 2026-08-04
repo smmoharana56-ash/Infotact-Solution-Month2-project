@@ -90,3 +90,7 @@ saas-ecommerce-cohort-retention/
 * Built a lightweight microservice (`app.py`) leveraging `FastAPI` and `Pydantic` for real-time payload parsing and data validation.
 * Exposed `/predict` POST endpoint to serve dynamic churn predictions and intervention workflows from serialized model artifacts.
 * Implemented OpenAPI standard documentation (Swagger UI) for seamless backend integration.
+* ** Day 18 - Automated API Testing Suite (`pytest` & `httpx`)
+* Developed a modular unit and integration testing suite (`test_app.py`) using FastAPI's `TestClient`.
+* Automated assertion checks for route availability, schema validation (`422 Unprocessable Entity`), and inference structure correctness.
+* Validated API resilience prior to Docker containerization and deployment pipelines.
