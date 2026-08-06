@@ -94,3 +94,8 @@ saas-ecommerce-cohort-retention/
 * Developed a modular unit and integration testing suite (`test_app.py`) using FastAPI's `TestClient`.
 * Automated assertion checks for route availability, schema validation (`422 Unprocessable Entity`), and inference structure correctness.
 * Validated API resilience prior to Docker containerization and deployment pipelines.
+## Continuous Integration & Deployment (Day 20)
+  1. Source code checkout on `ubuntu-latest`
+  2. Dependency installation (`requirements.txt`)
+  3. API unit testing via `pytest`
+  4. Container image construction via Docker Buildx
